@@ -5,8 +5,8 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 ps=PorterStemmer()
-from sklearn.feature_extraction.text import TfidfVectorizer
-tfidf=TfidfVectorizer(max_features=3000)
+
+
 
 
 
